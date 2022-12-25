@@ -1,6 +1,6 @@
 _G.Enabled = true
 --local data = readfile("nframes/owl.txt")
-local data = game:HttpGet("https://raw.githubusercontent.com/K4zemo/Rickroll-for-rate-my-avatar/main/frames.txt?token=GHSAT0AAAAAAB4XPUSNA6JRGVHW55NQMDEYY5H6PSQ") -- prerendered rickroll video
+local data = game:HttpGet("https://raw.githubusercontent.com/K4zemo/Rickroll-for-rate-my-avatar/main/frames.txt") -- prerendered rickroll video
 
 function update(text)
     local args = {
